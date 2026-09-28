@@ -1,0 +1,496 @@
+[
+  {
+    "id": "IS-10322-5-3",
+    "standard_number": "IS 10322 (Part 5/Sec 3) : 2012",
+    "title": "Luminaires - Particular Requirements: Luminaires for Road and Street Lighting",
+    "category": "Electrical & Lighting",
+    "sub_category": "Outdoor & Street Lighting",
+    "version_year": "2012 (Reaffirmed 2017)",
+    "status": "Current",
+    "description": "Specifies requirements for road and street lighting luminaires for use with electrical light sources on supply voltages not exceeding 1000 V. Covers mechanical strength, IP rating, thermal resistance, optical performance, and outdoor durability.",
+    "key_specifications": [
+      "LED street lights",
+      "90W",
+      "100W",
+      "outdoor road lighting",
+      "IP65",
+      "IP66 rating",
+      "luminaire",
+      "roadway fixture",
+      "pole light"
+    ],
+    "related_standards": [
+      "IS 16102 (Part 1) : 2012 - Self-Ballasted LED Lamps Safety",
+      "IS 15885 (Part 2/Sec 13) - Controlgear for LED Modules",
+      "IS 16106 : 2012 - Electrical & Photometric Measurements of LED Light Sources"
+    ],
+    "source_evidence": "Bureau of Indian Standards (BIS) ETD 24 (Illuminating Engineering), Section 5.3 Clause 4.2",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-16102-1",
+    "standard_number": "IS 16102 (Part 1) : 2012",
+    "title": "Self-Ballasted LED Lamps for General Lighting Services - Safety Requirements",
+    "category": "Electrical & Lighting",
+    "sub_category": "LED Lamps & Bulbs",
+    "version_year": "2012 (Reaffirmed 2017)",
+    "status": "Current",
+    "description": "Specifies the safety and interchangeability requirements, together with the test methods and conditions required to show compliance of self-ballasted LED lamps for general lighting services.",
+    "key_specifications": [
+      "LED lamps",
+      "indoor LED bulb",
+      "self-ballasted LED",
+      "general lighting",
+      "safety testing",
+      "lamp cap B22d E27"
+    ],
+    "related_standards": [
+      "IS 16102 (Part 2) : 2012 - Performance Requirements for Self-Ballasted LED Lamps",
+      "IS 16103 (Part 1) : 2012 - LED Modules for General Lighting"
+    ],
+    "source_evidence": "BIS ETD 24, Mandatory CRS (Compulsory Registration Scheme) under MeitY order",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-15885-2-13",
+    "standard_number": "IS 15885 (Part 2/Sec 13) : 2012",
+    "title": "Lamp Controlgear - Particular Requirements for DC or AC Supplied Electronic Controlgear for LED Modules",
+    "category": "Electrical & Lighting",
+    "sub_category": "LED Drivers & Power Supplies",
+    "version_year": "2012 (Reaffirmed 2019)",
+    "status": "Current",
+    "description": "Specifies safety requirements for electronic controlgear (LED drivers) used with LED modules. Includes surge protection up to 4kV/10kV, power factor correction (>0.95), total harmonic distortion (THD < 10%), and thermal protection.",
+    "key_specifications": [
+      "LED driver",
+      "power supply",
+      "electronic controlgear",
+      "surge protection",
+      "THD",
+      "power factor",
+      "constant current driver"
+    ],
+    "related_standards": [
+      "IS 10322 (Part 5/Sec 3) : 2012 - Street Lighting Luminaires",
+      "IS 16107 (Part 2/Sec 1) : 2012 - LED Luminaire Performance"
+    ],
+    "source_evidence": "BIS Electrotechnical Division, Quality Control Order (QCO) for LED Drivers",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-4984",
+    "standard_number": "IS 4984 : 2016",
+    "title": "High Density Polyethylene (HDPE) Pipes for Water Supply - Specification",
+    "category": "Civil & Piping",
+    "sub_category": "Water Supply & Irrigation",
+    "version_year": "2016 (Fifth Revision)",
+    "status": "Current",
+    "description": "Covers requirements for High Density Polyethylene (HDPE) pipes from 20 mm to 1000 mm nominal outer diameter intended for the conveyance of water for human consumption, industrial water supply, and irrigation.",
+    "key_specifications": [
+      "HDPE pipes",
+      "polyethylene pipe",
+      "PE100",
+      "PE80",
+      "water supply pipe",
+      "potable water",
+      "PN6",
+      "PN10",
+      "PN16 pressure class"
+    ],
+    "related_standards": [
+      "IS 7634 (Part 2) - Plastics pipes laying and jointing code of practice",
+      "IS 12235 - Methods of test for unplasticized PVC & PE pipes"
+    ],
+    "source_evidence": "BIS CED 50 (Plastic Piping Systems), Bureau of Indian Standards",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-456",
+    "standard_number": "IS 456 : 2000",
+    "title": "Plain and Reinforced Concrete - Code of Practice",
+    "category": "Civil & Construction",
+    "sub_category": "Structural Engineering & Concrete",
+    "version_year": "2000 (Reaffirmed 2021)",
+    "status": "Current (Amendments 1-5)",
+    "description": "Deals with the general structural use of plain and reinforced concrete. Covers design methods (Limit State and Working Stress), material specifications, M20 M30 M40 grades, mixing, placement, and durability standards for infrastructure projects.",
+    "key_specifications": [
+      "reinforced concrete",
+      "RMC",
+      "ready mix concrete",
+      "M20 grade",
+      "M30 grade",
+      "structural concrete",
+      "cement mortar",
+      "curing",
+      "compressive strength"
+    ],
+    "related_standards": [
+      "IS 1786 : 2008 - High Strength Deformed Steel Bars (TMT Bars)",
+      "IS 10262 : 2019 - Concrete Mix Proportioning Guidelines",
+      "IS 516 : 2021 - Hardened Concrete Testing"
+    ],
+    "source_evidence": "BIS Civil Engineering Division CED 2, Landmark Structural Indian Standard",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-1786",
+    "standard_number": "IS 1786 : 2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "category": "Civil & Construction",
+    "sub_category": "Steel & Reinforcement",
+    "version_year": "2008 (Fourth Revision)",
+    "status": "Current",
+    "description": "Covers requirements of thermo-mechanically treated (TMT) steel bars, Fe 415, Fe 500, Fe 500D, Fe 550, and Fe 600 grades for use as reinforcement in concrete structures.",
+    "key_specifications": [
+      "TMT steel bars",
+      "Fe 500D",
+      "Fe 550",
+      "reinforcement steel",
+      "rebar",
+      "construction steel",
+      "tensile strength",
+      "elongation"
+    ],
+    "related_standards": [
+      "IS 456 : 2000 - Plain and Reinforced Concrete Code of Practice",
+      "IS 2062 : 2011 - Hot Rolled Medium and High Tensile Structural Steel"
+    ],
+    "source_evidence": "BIS MTD 4 (Wrought Steel Products), Mandatory QCO under Steel Ministry",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-13229",
+    "standard_number": "IS 13229 : 1991",
+    "title": "Submersible Pumpsets for Clear, Cold, Fresh Water - Specification",
+    "category": "Mechanical & Hydraulics",
+    "sub_category": "Pumps & Pumping Machinery",
+    "version_year": "1991 (Reaffirmed 2020)",
+    "status": "Current",
+    "description": "Covers technical specifications, performance guarantees, efficiency thresholds, head capacity curves, and insulation classes (Class B/F) for submersible pumpsets used in tubewells, drinking water extraction, and agricultural irrigation.",
+    "key_specifications": [
+      "submersible pump",
+      "water pump",
+      "pumpset",
+      "5HP pump",
+      "10HP pump",
+      "tubewell pump",
+      "borewell motor",
+      "head discharge efficiency"
+    ],
+    "related_standards": [
+      "IS 9283 : 2013 - Motors for Submersible Pumpsets",
+      "IS 11346 : 2002 - Code of Practice for Selection and Installation of Agricultural Pumps"
+    ],
+    "source_evidence": "BIS MED 20 (Pumps and Turbines), Star Labeling requirement under BEE India",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-16333-3",
+    "standard_number": "IS 16333 (Part 3) : 2022",
+    "title": "Mobile Phone Language Support - Requirements for Indian Language Support",
+    "category": "Electronics & IT",
+    "sub_category": "Telecommunications & Mobile Devices",
+    "version_year": "2022",
+    "status": "Current",
+    "description": "Specifies mandatory input and display support for official Indian languages on mobile devices sold in India, including font rendering, keypads, and text prediction systems.",
+    "key_specifications": [
+      "mobile phone",
+      "smartphone",
+      "Indian language support",
+      "Indic keyboard",
+      "telecom procurement",
+      "handset specification"
+    ],
+    "related_standards": [
+      "IS 13252 (Part 1) : 2010 - Information Technology Equipment Safety",
+      "IS 16333 (Part 2) - Input Method Requirements for Mobile Handsets"
+    ],
+    "source_evidence": "BIS LITD 16 (Computer Hardware & Peripherals), Department of Telecommunications directive",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-13252-1",
+    "standard_number": "IS 13252 (Part 1) : 2010",
+    "title": "Information Technology Equipment - Safety: General Requirements",
+    "category": "Electronics & IT",
+    "sub_category": "IT Equipment & Hardware",
+    "version_year": "2010 (Reaffirmed 2020)",
+    "status": "Current",
+    "description": "Applies to mains-powered or battery-powered information technology equipment, including computer servers, laptops, desktop PCs, networking routers, printers, and display terminals.",
+    "key_specifications": [
+      "IT equipment",
+      "desktop computer",
+      "laptop procurement",
+      "server chassis",
+      "electrical safety",
+      "power adapter",
+      "router safety"
+    ],
+    "related_standards": [
+      "IS 16242 (Part 1) : 2014 - Uninterruptible Power Systems (UPS) Safety",
+      "IS 61000-4-2 - Electromagnetic Compatibility for IT Devices"
+    ],
+    "source_evidence": "BIS LITD 17, Mandatory registration scheme (MeitY compulsory certification)",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-16242-1",
+    "standard_number": "IS 16242 (Part 1) : 2014",
+    "title": "Uninterruptible Power Systems (UPS) - General and Safety Requirements",
+    "category": "Electronics & IT",
+    "sub_category": "Power Backup & UPS",
+    "version_year": "2014 (Reaffirmed 2020)",
+    "status": "Current",
+    "description": "Specifies safety and operational requirements for electronic power conversion systems (UPS) intended to supply AC power to critical IT equipment, data centers, and industrial loads.",
+    "key_specifications": [
+      "UPS system",
+      "uninterruptible power supply",
+      "battery backup",
+      "10KVA UPS",
+      "inverter",
+      "data center power"
+    ],
+    "related_standards": [
+      "IS 16242 (Part 2) - Electromagnetic Compatibility (EMC) Requirements for UPS",
+      "IS 15549 - Stationary Valve Regulated Lead-Acid (VRLA) Batteries"
+    ],
+    "source_evidence": "BIS LITD 17 (UPS Systems Section), Bureau of Indian Standards",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-14268",
+    "standard_number": "IS 14268 : 2022",
+    "title": "Uncoated Stress Relieved Low Relaxation Seven-Wire Strand for Prestressed Concrete - Specification",
+    "category": "Civil & Infrastructure",
+    "sub_category": "Bridges & Highways",
+    "version_year": "2022 (Second Revision)",
+    "status": "Current",
+    "description": "Specifies the technical requirements for low-relaxation 7-wire steel strands used in prestressed concrete structures, flyovers, metro rail elevated corridors, and highway bridges.",
+    "key_specifications": [
+      "LR strand",
+      "HT strand",
+      "prestressed concrete strand",
+      "seven wire strand",
+      "bridge rebar",
+      "flyover girder"
+    ],
+    "related_standards": [
+      "IS 1786 : 2008 - Deformed Steel Bars for Concrete",
+      "IS 1343 : 2012 - Code of Practice for Prestressed Concrete"
+    ],
+    "source_evidence": "BIS MTD 4 (Steel Strand Division), Highway Ministry (MORTH) Specification",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-14735",
+    "standard_number": "IS 14735 : 1999",
+    "title": "Automotive Vehicles - Child Restraints System - Specification",
+    "category": "Automotive & Transport",
+    "sub_category": "Vehicle Safety Systems",
+    "version_year": "1999 (Reaffirmed 2019)",
+    "status": "Current",
+    "description": "Specifies safety criteria, impact absorption testing, belt anchorages, and flame retardancy for child seats and restraint systems installed in motor vehicles.",
+    "key_specifications": [
+      "child seat",
+      "car seat safety",
+      "automotive restraint",
+      "vehicle seatbelt",
+      "ISOFIX mount"
+    ],
+    "related_standards": [
+      "IS 15139 : 2002 - Automotive Safety Belts Specification",
+      "IS 15223 - Automotive Crash Safety Criteria"
+    ],
+    "source_evidence": "BIS TED 6 (Automotive Safety Division), CMVR Regulations",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-15490",
+    "standard_number": "IS 15490 : 2004",
+    "title": "Cylinders for Domestic Liquefied Petroleum Gas (LPG) - Specification",
+    "category": "Mechanical & Safety",
+    "sub_category": "Pressure Vessels & Gas Cylinders",
+    "version_year": "2004 (Reaffirmed 2020)",
+    "status": "Current",
+    "description": "Specifies raw material selection, welded construction, hydro-testing (at 25 bar), burst testing, and safety valve fitting for 14.2 kg and 19 kg LPG cylinders for commercial and domestic distribution.",
+    "key_specifications": [
+      "LPG cylinder",
+      "gas cylinder",
+      "14.2kg cylinder",
+      "pressure vessel",
+      "welded steel cylinder",
+      "cooking gas tank"
+    ],
+    "related_standards": [
+      "IS 3196 (Part 1) - Welded Low Carbon Steel Gas Cylinders",
+      "IS 8737 - LPG Cylinder Valves Specification"
+    ],
+    "source_evidence": "BIS MED 16 (Gas Cylinders Division), PESO (Statutory Approval Body India)",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-15658",
+    "standard_number": "IS 15658 : 2021",
+    "title": "Concrete Paving Blocks - Specification",
+    "category": "Civil & Construction",
+    "sub_category": "Roads & Pavements",
+    "version_year": "2021 (First Revision)",
+    "status": "Current",
+    "description": "Covers design requirements, water absorption (<6%), abrasion resistance, and characteristic compressive strength for precast interlocking concrete paver blocks for urban roads, footpaths, parking lots, and industrial yards.",
+    "key_specifications": [
+      "paver block",
+      "interlocking concrete block",
+      "paving blocks",
+      "pathway tile",
+      "M40 paver",
+      "footpath construction"
+    ],
+    "related_standards": [
+      "IS 456 : 2000 - Code of Practice for Reinforced Concrete",
+      "IS 2185 (Part 1) - Concrete Masonry Units"
+    ],
+    "source_evidence": "BIS CED 53 (Precast Concrete Products), CPWD Specifications",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-7466",
+    "standard_number": "IS 7466 : 1974",
+    "title": "Rubber Boots for General Purposes - Specification",
+    "category": "Safety & Personal Protective Equipment",
+    "sub_category": "Footwear & PPE",
+    "version_year": "1974 (Reaffirmed 2021)",
+    "status": "Current",
+    "description": "Covers requirements for vulcanized rubber gumboots/gumboots used by workers in agricultural fields, sanitation, wet construction, and chemical handling environments.",
+    "key_specifications": [
+      "rubber boot",
+      "gumboots",
+      "safety boots",
+      "waterproof boot",
+      "sanitation footwear",
+      "protective boot"
+    ],
+    "related_standards": [
+      "IS 15298 (Part 2) : 2016 - Personal Protective Equipment - Safety Footwear",
+      "IS 5676 - Industrial Safety Shoes"
+    ],
+    "source_evidence": "BIS CHD 19 (Footwear Section), Bureau of Indian Standards",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-15298-2",
+    "standard_number": "IS 15298 (Part 2) : 2016",
+    "title": "Personal Protective Equipment - Part 2: Safety Footwear",
+    "category": "Safety & Personal Protective Equipment",
+    "sub_category": "Safety Gear & Footwear",
+    "version_year": "2016 (Second Revision)",
+    "status": "Current",
+    "description": "Specifies basic and additional (optional) requirements for safety footwear used in general industrial workplaces, including 200 Joules steel toe cap impact resistance, slip resistance, and oil resistance.",
+    "key_specifications": [
+      "safety shoes",
+      "steel toe boot",
+      "industrial footwear",
+      "PPE safety shoe",
+      "anti-slip shoe",
+      "oil resistant boot"
+    ],
+    "related_standards": [
+      "IS 15298 (Part 1) - Test Methods for Footwear",
+      "IS 2573 - Protective Leather Gloves"
+    ],
+    "source_evidence": "BIS CHD 19, Mandatory QCO by Ministry of Commerce and Industry",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-14489",
+    "standard_number": "IS 14489 : 1998",
+    "title": "Code of Practice on Occupational Safety and Health Audit",
+    "category": "Safety & Management Systems",
+    "sub_category": "Occupational Health & Safety",
+    "version_year": "1998 (Reaffirmed 2019)",
+    "status": "Current",
+    "description": "Establishes audit procedures, methodology, checklist criteria, and reporting guidelines for evaluating occupational health, hazard identification, and safety management systems in factories, chemical plants, and construction sites.",
+    "key_specifications": [
+      "safety audit",
+      "occupational health audit",
+      "factory safety code",
+      "hazard audit",
+      "OSH audit guidelines"
+    ],
+    "related_standards": [
+      "IS 18001 / ISO 45011 - Occupational Health and Safety Management Systems",
+      "IS 14490 - Guidelines for Hazard Identification and Risk Assessment"
+    ],
+    "source_evidence": "BIS CHD 8 (Chemical Hazards & Safety), Factories Act Guidelines",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-14293",
+    "standard_number": "IS 14293 : 1995",
+    "title": "Medical Electrical Equipment - Pulse Oximeters for Medical Use",
+    "category": "Healthcare & Medical Devices",
+    "sub_category": "Medical Electronics",
+    "version_year": "1995 (Reaffirmed 2021)",
+    "status": "Current",
+    "description": "Specifies safety and accuracy requirements for finger pulse oximeters and bedside patient monitors measuring arterial oxygen saturation (SpO2) and pulse rate.",
+    "key_specifications": [
+      "pulse oximeter",
+      "SpO2 monitor",
+      "medical monitor",
+      "oxygen saturation device",
+      "hospital equipment"
+    ],
+    "related_standards": [
+      "IS 13450 (Part 1) - Medical Electrical Equipment Safety Requirements",
+      "IS 13450 (Part 2) - Particular Safety for Patient Monitoring Equipment"
+    ],
+    "source_evidence": "BIS MHD 10 (Electro-Medical Equipment), Central Drugs Standard Control Organisation (CDSCO)",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-17354",
+    "standard_number": "IS 17354 : 2020",
+    "title": "Solar Photovoltaic (PV) Water Pumping Systems - Specification",
+    "category": "Renewable Energy & Solar",
+    "sub_category": "Solar Power & Pumps",
+    "version_year": "2020",
+    "status": "Current",
+    "description": "Covers design, performance requirements, efficiency standards, solar panel array sizing, controller inverter specifications, and wire sizing for standalone solar powered water pump sets for agriculture and drinking water.",
+    "key_specifications": [
+      "solar water pump",
+      "solar PV pump",
+      "PM-KUSUM pump",
+      "solar irrigation",
+      "solar inverter pump controller",
+      "photovoltaic pumping system"
+    ],
+    "related_standards": [
+      "IS 14286 - Crystalline Silicon Terrestrial Photovoltaic (PV) Modules",
+      "IS 16077 - Inverters for Use in Photovoltaic Power Systems"
+    ],
+    "source_evidence": "BIS ETD 28 (Solar Energy Division), Ministry of New and Renewable Energy (MNRE)",
+    "is_demo_data": true
+  },
+  {
+    "id": "IS-14286",
+    "standard_number": "IS 14286 : 2019 / IEC 61215",
+    "title": "Terrestrial Photovoltaic (PV) Modules - Design Qualification and Type Approval",
+    "category": "Renewable Energy & Solar",
+    "sub_category": "Solar Panels & PV Modules",
+    "version_year": "2019 (Second Revision)",
+    "status": "Current",
+    "description": "Specifies testing procedures (thermal cycling, damp heat, mechanical load, PID testing, hail impact) for terrestrial solar PV modules suitable for long-term outdoor operation.",
+    "key_specifications": [
+      "solar panels",
+      "solar PV module",
+      "mono perc panel",
+      "bifacial solar module",
+      "photovoltaic solar panel",
+      "540W solar panel"
+    ],
+    "related_standards": [
+      "IS 61730 (Part 1 & 2) - Photovoltaic Module Safety Qualification",
+      "IS 16077 - Grid Connected Solar Inverters"
+    ],
+    "source_evidence": "BIS ETD 28, MNRE Approved List of Models and Manufacturers (ALMM)",
+    "is_demo_data": true
+  }
+]
