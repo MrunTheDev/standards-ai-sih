@@ -29,6 +29,7 @@ st.markdown("""
     html, body, [class*="css"] {
         font-family: 'Plus Jakarta Sans', sans-serif;
         background-color: #0b1329;
+        overflow-x: hidden;
     }
 
     #MainMenu {visibility: hidden;}
@@ -51,6 +52,8 @@ st.markdown("""
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
     }
 
     .brand-title-group {
@@ -70,6 +73,7 @@ st.markdown("""
         justify-content: center;
         font-size: 26px;
         box-shadow: 0 6px 16px rgba(6, 182, 212, 0.4);
+        flex-shrink: 0;
     }
 
     .brand-name {
@@ -80,6 +84,7 @@ st.markdown("""
         background: linear-gradient(90deg, #ffffff, #e0f2fe, #38bdf8);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        word-break: break-word;
     }
 
     .brand-subtitle {
@@ -87,6 +92,7 @@ st.markdown("""
         color: #94a3b8;
         margin-top: 2px;
         font-weight: 500;
+        word-break: break-word;
     }
 
     .header-badges {
@@ -105,6 +111,7 @@ st.markdown("""
         padding: 4px 12px;
         border-radius: 999px;
         letter-spacing: 0.04em;
+        white-space: nowrap;
     }
 
     .demo-banner-small {
@@ -115,17 +122,21 @@ st.markdown("""
         font-weight: 600;
         padding: 3px 10px;
         border-radius: 999px;
+        white-space: nowrap;
     }
 
     /* Workflow Progress Bar */
     .workflow-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background: #1e293b;
         border: 1px solid #334155;
         border-radius: 12px;
         padding: 10px 20px;
         margin-bottom: 1.8rem;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .workflow-step {
@@ -151,6 +162,7 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         font-size: 0.75rem;
+        flex-shrink: 0;
     }
 
     .workflow-step.active .workflow-number {
@@ -168,6 +180,8 @@ st.markdown("""
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
     }
 
     .lang-badge {
@@ -188,6 +202,7 @@ st.markdown("""
         padding: 1.6rem;
         margin-bottom: 1.5rem;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        word-break: break-word;
     }
 
     /* Metrics Grid */
@@ -217,6 +232,7 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         font-size: 22px;
+        flex-shrink: 0;
     }
 
     .metric-value-text {
@@ -241,6 +257,7 @@ st.markdown("""
         padding: 1.6rem;
         margin-bottom: 1.5rem;
         box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        word-break: break-word;
     }
 
     .rank-pill {
@@ -260,6 +277,7 @@ st.markdown("""
         font-weight: 700;
         padding: 4px 12px;
         border-radius: 999px;
+        white-space: nowrap;
     }
 
     .rel-badge-strong {
@@ -270,6 +288,7 @@ st.markdown("""
         font-weight: 700;
         padding: 4px 12px;
         border-radius: 999px;
+        white-space: nowrap;
     }
 
     .rel-badge-mod {
@@ -280,6 +299,7 @@ st.markdown("""
         font-weight: 700;
         padding: 4px 12px;
         border-radius: 999px;
+        white-space: nowrap;
     }
 
     .signal-chip {
@@ -293,6 +313,7 @@ st.markdown("""
         border-radius: 6px;
         margin-right: 5px;
         margin-bottom: 4px;
+        word-break: break-word;
     }
 
     .tree-item {
@@ -304,6 +325,7 @@ st.markdown("""
         border-left: 3px solid #0284c7;
         border-radius: 4px;
         margin-bottom: 6px;
+        word-break: break-word;
     }
 
     .proto-disclaimer {
@@ -315,6 +337,7 @@ st.markdown("""
         font-size: 0.82rem;
         font-weight: 600;
         margin-top: 10px;
+        word-break: break-word;
     }
 
     .status-dot {
@@ -324,6 +347,106 @@ st.markdown("""
         border-radius: 50%;
         background-color: #22c55e;
         margin-right: 6px;
+    }
+
+    /* Mobile Responsive Overrides (320px - 768px) */
+    @media (max-width: 768px) {
+        .main .block-container {
+            padding-left: 0.8rem !important;
+            padding-right: 0.8rem !important;
+            padding-top: 0.8rem !important;
+        }
+
+        .brand-header {
+            padding: 1.2rem 1.2rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .brand-title-group {
+            gap: 12px;
+        }
+
+        .brand-logo-icon {
+            width: 44px;
+            height: 44px;
+            font-size: 20px;
+        }
+
+        .brand-name {
+            font-size: 1.6rem;
+        }
+
+        .brand-subtitle {
+            font-size: 0.82rem;
+        }
+
+        .header-badges {
+            align-items: flex-start;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .workflow-container {
+            padding: 10px 12px;
+            gap: 8px;
+        }
+
+        .workflow-step {
+            font-size: 0.78rem;
+        }
+
+        .metric-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .metric-card-modern {
+            padding: 0.9rem 1rem;
+            gap: 10px;
+        }
+
+        .metric-icon-box {
+            width: 38px;
+            height: 38px;
+            font-size: 18px;
+        }
+
+        .metric-value-text {
+            font-size: 1.3rem;
+        }
+
+        .metric-label-text {
+            font-size: 0.75rem;
+        }
+
+        .rec-card {
+            padding: 1.1rem;
+        }
+
+        .rec-card > div:first-child {
+            flex-direction: column;
+            align-items: flex-start !important;
+            gap: 8px;
+        }
+
+        .stButton>button {
+            min-height: 44px;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .brand-name {
+            font-size: 1.4rem;
+        }
+
+        .metric-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
     }
     </style>
 """, unsafe_allow_html=True)
